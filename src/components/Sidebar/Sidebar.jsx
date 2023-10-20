@@ -4,7 +4,7 @@ import '../Sidebar/style.css';
 export default function Sidebar({ playlists, isOpen, onToggleSidebar }) {
   return (
     <div className={`sidebar ${isOpen ? 'open' : ''}`}>
-      <h2>Playlists</h2>
+      <h2>Special selection</h2>
       <div className='border-line'></div>
       <play-btn-container>
         <button className='toggle-button' onClick={onToggleSidebar}>

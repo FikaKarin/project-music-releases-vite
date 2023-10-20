@@ -14,7 +14,7 @@
 
 /* Sidebar styles */
 .sidebar {
-  width: 25%;
+  width: 20%;
   background-color: rgb(0, 0, 0);
   border-right: 1px solid rgba(128, 128, 128, 0.458);
   border-left: 1px solid rgba(128, 128, 128, 0.458);
@@ -59,7 +59,7 @@
 }
 
 .sidebar h2 {
-  font-size: 32px;
+  font-size: 18px;
   margin-bottom: 10px;
   color: white;
   color: #1db954;
@@ -82,7 +82,7 @@ a {
     margin-top: 50px;
   }
   .sidebar {
-    width: 44%;
+    width: 34%;
   }
   .toggle-button {
     display: none;
@@ -105,6 +105,9 @@ a {
 
 /* CSS for mobile phone */
 @media (min-width: 360px) and (max-width: 767px) {
+  .sidebar {
+    width: 25%;
+  }
   .album {
     height: 100%;
     width: calc(100% - 40px); /* 2 albums per row with 20px gap between them */
@@ -119,12 +122,6 @@ a {
   }
   .album-container {
     margin-top: 25px;
-  }
-  .sidebar {
-    width: 48%;
-  }
-  .sidebar h2 {
-    font-size: 24px;
   }
 }
 
