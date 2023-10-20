@@ -11,7 +11,7 @@
             },
             "href": "https://api.spotify.com/v1/artists/5y9wg9qkGBl0n9v9RzaPKu",
             "id": "5y9wg9qkGBl0n9v9RzaPKu",
-            "name": "Capo",
+            "name": ["Capo", "Samantha", "Liszxo"],
             "type": "artist",
             "uri": "spotify:artist:5y9wg9qkGBl0n9v9RzaPKu"
           }
@@ -467,7 +467,7 @@
             },
             "href": "https://api.spotify.com/v1/artists/4Ge8xMJNwt6EEXOzVXju9a",
             "id": "4Ge8xMJNwt6EEXOzVXju9a",
-            "name": "Caroline Polachek",
+            "name": ["Caroline Polachek", "Loiko", "juuso", "Likkas fusion", "Micca", "Sabrina"],
             "type": "artist",
             "uri": "spotify:artist:4Ge8xMJNwt6EEXOzVXju9a"
           }

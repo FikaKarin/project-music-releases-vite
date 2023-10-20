@@ -1,11 +1,9 @@
 import React from 'react';
-import '../components/style.css';
-import AlbumName from './AlbumName';
-import ArtistName from './ArtistName';
-import CoverImage from './CoverImage';
-import HeartIcon from './HeartIcon';
-import DotsIcon from './DotsIcon';
-import PlayIcon from './PlayIcon';
+import AlbumName from '../AlbumName/AlbumName';
+import ArtistName from '../ArtistName/ArtistName';
+import CoverImage from '../CoverImage/CoverImage';
+import ButtonsContainer from '../ButtonsContainer/ButtonsContainer';
+import '../Album/style.css';
 
 export default function Album({ albumData }) {
   return (
@@ -16,17 +14,7 @@ export default function Album({ albumData }) {
           url={albumData.images[0].url}
           alt={albumData.name}
         />
-        <div className='icons-container'>
-          <button>
-            <HeartIcon className='heart-icon' />
-          </button>
-          <button>
-            <PlayIcon className='play-icon' />
-          </button>
-          <button>
-            <DotsIcon className='dots-icon' />
-          </button>
-        </div>
+        <ButtonsContainer />
       </div>
       <div className='album-info'>
         <a

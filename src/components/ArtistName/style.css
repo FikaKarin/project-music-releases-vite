@@ -1,0 +1,11 @@
+.artist-name {
+  font-size: 14px;
+  font-weight: bold;
+  color: grey;
+  margin-top: 10px;
+  display: block;
+}
+
+.artist-name:hover {
+  text-decoration: underline;
+}

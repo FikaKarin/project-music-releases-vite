@@ -1,0 +1,15 @@
+.sort-buttons button {
+  background-color: #1db954;
+  color: white;
+  padding: 5px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 32px;
+  cursor: pointer;
+  margin: 8px 10px;
+  transition: background-color 0.3s ease;
+}
+
+.sort-buttons button:hover {
+  background-color: #128c3c;
+}

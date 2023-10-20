@@ -1,0 +1,12 @@
+.icons-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  opacity: 0; /* Initially set opacity to 0 */
+  transition: opacity 0.3s ease;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  justify-content: center;
+}
