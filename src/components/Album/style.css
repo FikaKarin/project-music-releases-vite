@@ -10,7 +10,13 @@
   width: calc(25% - 40px);
   height: 100%;
 }
-
+.album-info {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  text-align: left;
+  font-size: 16px;
+}
 .album:hover .icons-container {
   opacity: 1; /* Set opacity to 1 when hovering over the album */
 }
@@ -66,15 +72,4 @@ button {
   height: 0;
   padding-bottom: 100%; /* 1:1 Aspect Ratio for a square shape */
   overflow: hidden;
-}
-
-.album-name {
-  font-size: 14px;
-  font-weight: bold;
-  color: #ffffff;
-  margin-top: 10px;
-  margin-bottom: 5px;
-  text-align: center;
-  text-decoration: none;
-  display: block;
 }
