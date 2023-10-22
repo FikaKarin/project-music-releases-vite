@@ -1,16 +1,12 @@
+VIEW MY VERSION OF THE PROJECT ASSIGNMENT HERE: https://cool-cuchufli-5194f6.netlify.app/
+<img width="1610" alt="Skärmavbild 2023-10-22 kl  12 51 00" src="https://github.com/FikaKarin/project-music-releases-vite/assets/91525357/882e2b50-2cf6-4bef-864f-d28bb8c0fb21">
+
 <h1 align="center">
   <a href="">
     <img src="/src/assets/music-releases.svg" alt="Project Banner Image">
   </a>
 </h1>
 
-# Music Releases
-
-Replace this readme with your own information about your project.
-
-Start by briefly describing the assignment in a sentence or two. Keep it short and to the point.
-
-## Getting Started with the Project
 
 ### Dependency Installation & Startup Development Server
 
