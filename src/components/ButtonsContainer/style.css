@@ -2,11 +2,34 @@
   display: flex;
   gap: 10px;
   margin-top: 10px;
-  opacity: 0; /* Initially set opacity to 0 */
+  opacity: 0; /* Initially set opacity to 0, not visible */
   transition: opacity 0.3s ease;
   position: absolute;
   bottom: 50%;
   left: 50%;
   transform: translate(-50%, 50%);
   justify-content: center;
+}
+
+/* Set initial opacity for all icons in the container */
+.icons-container img {
+  opacity: 0.5;
+  width: 40px;
+  height: 40px;
+  transition: opacity 0.3s ease, transform 0.3s ease; /* Add transitions for opacity and scaling */
+}
+
+/* Increase opacity and scale only for the play icon when hovered */
+.icons-container .play-icon:hover {
+  opacity: 1; /* Set full opacity on hover */
+  transform: scale(1.2); /* Increase the size on hover */
+}
+
+img button {
+  background: none; /* Set background to none */
+}
+
+button {
+  background: none; /* Set background to none */
+  border-style: none;
 }
